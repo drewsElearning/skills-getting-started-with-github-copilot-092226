@@ -48,3 +48,7 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Test Layout
+
+Backend FastAPI tests live under the `tests/` directory so API behavior is isolated from the frontend static files.
